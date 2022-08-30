@@ -1,18 +1,7 @@
-<?php
+<?php require_once 'src/Template/site/top.php' ?>
 
-require __DIR__ . '/vendor/autoload.php';
+<?php require_once 'src/Template/site/header.php' ?>
 
-ini_set('error_reporting', E_ALL);
-ini_set('display_errors', 1);
+<?php require_once 'src/Template/site/hero.php' ?>
 
-// Require composer autoloader
-
-//define("DIR", __FILE__);
-
-define("DIR", "");
-
-date_default_timezone_set("Asia/Tehran");
-
-
-
-
+<?php require_once 'src/Template/site/footer.php' ?>
