@@ -6,9 +6,9 @@
         <img class="logo-image" src="./public/asset/images/logo.png">
     </div>
     <div class="menuIcons hambergurMenu">
-        <div class="eachCategory">Home</div>
-        <div class="eachCategory">Category</div>
-        <div class="eachCategory live">Live</div>
+        <div class="menuIcon">Home</div>
+        <div class="menuIcon">Category</div>
+        <div class="menuIcon live">Live</div>
     </div>
     <div class="nav-bar-search-signin">
         <div class="search">
