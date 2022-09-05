@@ -1,15 +1,24 @@
 <?php
 ?>
-
 <div class="container" id="header">
+    <div class="hambergurMenu">
+        <ion-icon name="menu-outline"></ion-icon>
+    </div>
     <div class="logo">
         <img class="logo-image" src="./public/asset/images/logo.png">
     </div>
-    <div class="menuIcons hambergurMenu">
+    <div class="menuIcons">
         <div class="menuIcon">Home</div>
         <div class="menuIcon">Category</div>
-        <div class="menuIcon live">Live</div>
+        <div class="menuIcon">Live</div>
     </div>
+    <!-- <nav class="active">
+        <ul class="hamburgerMenu container">
+            <li class="menuIcon">Home</li>
+            <li class="menuIcon">Category</li>
+            <li class="menuIcon live">Live</li>
+        </ul>
+    </nav> -->
     <div class="nav-bar-search-signin">
         <div class="search">
             <input class="searchInput" name="searchBar" placeholder="search..">

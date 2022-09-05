@@ -1,7 +1,19 @@
 <div id="movies" class="container">
           <div class="movie-card">
               <div class="movie-card-head">
-                  <img src="./public/asset/images/movies/red-notice.jpg" alt="" class="card-img">
+                  <img src="./public/asset/images/movies/red-notice.jpg" alt="" class="card-img x">
+                  <div class="card-overlay">
+                    <div class="bookmark">
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star-outline"></ion-icon>
+                      <span>7.4</span>
+                    </div>
+                    <div class="play">
+                      <ion-icon name="play-circle-outline"></ion-icon>
+                    </div>
+                  </div>
               </div>
               <div class="movie-card-body">
                     <h3 class="movie-title">Red Notice</h3>
@@ -16,22 +28,18 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/spider-men.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
-
+              <div class="card-overlay">
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
                 </div>
-
                 <div class="rating">
                   <ion-icon name="star-outline"></ion-icon>
                   <span>7.4</span>
                 </div>
-
                 <div class="play">
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
-
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -49,23 +57,18 @@
 
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/matrix.jpg" alt="" class="card-img">
-
-              <!-- <div class="card-overlay">
-
+              <div class="card-overlay">
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
                 </div>
-
                 <div class="rating">
                   <ion-icon name="star-outline"></ion-icon>
-                  <span>N/A</span>
+                  <span>7.4</span>
                 </div>
-
                 <div class="play">
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
-
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -84,7 +87,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/eternals.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -99,7 +102,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -118,7 +121,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/dune.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -133,7 +136,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -152,7 +155,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/1917.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -167,7 +170,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -186,7 +189,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/shang-chi.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -201,7 +204,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -220,7 +223,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/casino-royale.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -235,7 +238,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -254,7 +257,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/dark-knight.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -269,7 +272,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -288,7 +291,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/panther.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -303,7 +306,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -322,7 +325,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/venom.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -337,7 +340,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -356,7 +359,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/LOTR.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -371,7 +374,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -390,7 +393,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/saving-private-ryan.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -405,7 +408,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -424,7 +427,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/interstaller.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -439,7 +442,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -458,7 +461,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/endgame.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -473,7 +476,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -492,7 +495,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/ww84.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -507,7 +510,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">
@@ -526,7 +529,7 @@
             <div class="movie-card-head">
               <img src="./public/asset/images/movies/captain-marvel.jpg" alt="" class="card-img">
 
-              <!-- <div class="card-overlay">
+              <div class="card-overlay">
 
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -541,7 +544,7 @@
                   <ion-icon name="play-circle-outline"></ion-icon>
                 </div>
 
-              </div> -->
+              </div>
             </div>
 
             <div class="movie-card-body">

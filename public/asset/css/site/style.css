@@ -8,11 +8,25 @@
 
 #header{
     display: flex;
-    height: 20vh;
+    height: 10vh;
     flex-direction: row;
     align-items: center;
     width: 100%;
     justify-content: space-between;
+}
+
+nav{
+    position: fixed;
+    top: -250px;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 250px;
+    background: var(--rich-black-fogra-29);
+}
+
+nav.active{
+    top: 0;
 }
 
 .menuIcons{
@@ -79,16 +93,24 @@
 }
 
 #hero{
-    background-image: url('../../images/John-Wick-3.jpg');
-    background-position: 5% 3%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url('../../images/John-Wick-3.jpg'); */
     width: 100%;
     height: 55vh;
     cursor: pointer;
-    border-radius: 10px;
+    overflow: hidden;
     margin-bottom: 60px;
     position: relative;
+    padding: 0 !important;
+}
+
+#hero img{
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top;
+}
+
+#hero:hover img{
+    transform: scale(1.1);
 }
 
 .heroContent{
@@ -117,11 +139,6 @@
     flex-direction: row;
 }
 
-.movie-card-head img{
-    width: 100%;
-    /* height: auto; */
-    /* aks bayad hamishe 100% va height auto bashad */
-}
 .heroData .display{
     padding: 2px 5px;
     background-color: var(--azure);
@@ -222,9 +239,75 @@
     width: 100%;
 }
 
+.movie-card-head img{
+    width: 100%;
+    /* height: auto; */
+    /* aks bayad hamishe 100% va height auto bashad */
+}
+
 .movie-card-head{
     height: 250px;
     border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.movie-card{
+    cursor: pointer;
+}
+
+.card-overlay{
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+
+.movie-card-head:hover img{
+    transform: scale(1.8);
+}
+
+.movie-card:hover .card-overlay{
+    opacity: 1;
+}
+
+.card-overlay .bookmark{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    padding: 3px 5px;
+    background: var(--oxford-blue-50);
+    border-radius: 7px;
+    color: var(--light-azure);
+}
+
+.card-overlay .bookmark:hover ion-icon{
+    fill: var(--yellow);
+    color: var(--yellow);
+}
+
+.card-overlay .rating{
+    position: absolute;
+    color: var(--light-azure);
+    top: 20px;
+    right: 10px;    
+    padding: 5px 10px;
+    background: var(--oxford-blue-50);
+    border-radius: 7px;
+}
+
+.card-overlay .play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.card-overlay .play ion-icon{
+    width: 55px;
+    height: 55px;
 }
 
 #loadMore{
@@ -235,6 +318,11 @@
     margin: auto;
     display: block;
     border-radius: 15px;
+    color: var(--white);
+}
+
+#loadMore:hover{
+    background: var(--azure);
     color: var(--white);
 }
 
@@ -280,6 +368,14 @@
     padding: 5px 8px;
     border-radius: 8px;
     z-index: 10;
+}
+
+.eachCategory:hover{
+    transform: scale(1.1);
+}
+
+.eachCategory:hover .categoryName{
+    color: var(--azure);
 }
 
 .categoryGrid{
@@ -338,6 +434,8 @@
     cursor: pointer;
     border-radius: 20px;
     position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
 
 .showHead::after{
@@ -352,6 +450,10 @@
 
 .showHead img{
     border-radius: 20px;
+}
+
+.showHead:hover img{
+    transform: scale(1.4);
 }
 
 .channelIcon{
@@ -454,6 +556,13 @@
     font-size: var(--fs-sm);
 }
 
+.footer-col-data:hover{
+    color: var(--azure);
+}
+
+.socialMedia ion-icon:hover{
+    color: var(--azure);
+}
 .copy-right{
     display: flex;
     justify-content: space-between;
@@ -468,6 +577,26 @@
 
 .copy-right .rules p{
     margin-left: 15px;
+}
+
+.hambergurMenu{
+    display: none;
+}
+
+.showData .showName:hover{
+    color: var(--azure);
+}
+
+.menuIcon:hover{
+    color: var(--azure);
+}
+
+.movie-title:hover{
+    color: var(--azure);
+}
+
+.heroData .data ion-icon{
+    color: var(--azure);
 }
 
 

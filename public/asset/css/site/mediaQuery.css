@@ -24,6 +24,15 @@
         display: none;
     }
 
+    /* .hambergurMenu{
+        display: block;
+    } */
+
+    .hambergurMenu ion-icon{
+        width: 35px;
+        height: 35px;
+    }
+
     .nav-bar-search-signin{
         width: 70%;
     }
@@ -138,6 +147,22 @@
     .eachShow .showData img{
         width: 10%;
         flex: 0 1 10%;
+    }
+
+    #hero{
+        margin-bottom: 30px;
+    }
+
+    #movies{
+        margin-bottom: 30px;
+    }
+
+    #shows{
+        margin-bottom: 30px;
+    }
+
+    #footer{
+        margin-bottom: 30px;
     }
 }
 
