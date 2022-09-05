@@ -33,7 +33,7 @@
         </div>
         <div class="footer-col thirdCol">
             <ul>
-                <h5 class="footer-col-header"></h5>
+                <h5 class="footer-col-header">Watch</h5>
                 <li class="footer-col-data">TV Shows</li>
                 <li class="footer-col-data">Movies</li>
                 <li class="footer-col-data">Kids</li>

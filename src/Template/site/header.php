@@ -12,7 +12,7 @@
     </div>
     <div class="nav-bar-search-signin">
         <div class="search">
-            <input class="searchInput" name="searchBar" placeholder="I'm looking for">
+            <input class="searchInput" name="searchBar" placeholder="search..">
             <button class="searchButton">
                 <ion-icon name="search-outline"></ion-icon>
             </button>

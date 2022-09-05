@@ -1,0 +1,162 @@
+@media(max-width : 992px) {
+    .eachShow .showData img{
+        width: 20%;
+        flex: 0 1 20%;
+    }
+
+    .eachShow .showData .showName{
+        font-size: 15px;
+    }
+
+    #footer .description {
+        flex: 0 1 48%;
+        max-width: 48%;
+        margin-right: 85px;
+    }
+
+    #footer .footer-col{
+        height: 100%;
+    }
+}
+
+@media(max-width : 768px) {
+    .menuIcons{
+        display: none;
+    }
+
+    .nav-bar-search-signin{
+        width: 70%;
+    }
+
+    .heroContent{
+        bottom: 5px;
+        left: 30px;
+    }
+
+    .heroName{
+        font-size: 1.3rem;
+    }
+
+    .categoryGrid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .live-badge{
+        top: 15px;
+        left: 15px;
+    }
+
+    .total-viewers{
+        bottom: 15px;
+        right: 5px;
+    }
+
+    .footer-columns{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:577px){
+    .categoryGrid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .eachShow .showData .showName{
+        font-size: 13.6px;
+    }
+}
+
+@media(max-width:516px){
+    #footer .description{
+        flex: 0 1 60%;
+        max-width: 60%;
+        margin-right: 55px;
+    }
+
+    .footer-columns{
+        gap: 12px;
+    }
+}
+
+@media(max-width:505px){
+    .showsFlex{
+        flex-wrap: wrap;
+    }
+    .eachShow{
+        flex: 0 0 45%;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+
+    .copy-right{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rules{
+        margin: auto;
+    }
+
+    .filter-bar{
+        flex-wrap: wrap;
+    }
+
+    .filter-dropdowns{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .filter-radios{
+        width: 100%;
+    }
+}
+
+@media(max-width:440px){
+    #footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #hero{
+        background-position: center;
+    }
+
+    #footer .description{
+        flex: 0 0 90%;
+        max-width: 100%;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+}
+
+@media(max-width:411px){
+    .eachShow{
+        flex: 0 0 100%;
+    }
+
+    .eachShow .showData img{
+        width: 10%;
+        flex: 0 1 10%;
+    }
+}
+
+@media(max-width:406px){
+    .categoryGrid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media(max-width:381px){
+    .heroName{
+        font-size: 1.0rem;
+    }
+
+    .heroData .data{
+        margin-right: 10px;
+    }
+
+    .heroData .data span{
+        font-size: 12px;
+    }
+}
