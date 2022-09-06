@@ -1,7 +1,7 @@
 <div id="movies" class="container">
           <div class="movie-card">
               <div class="movie-card-head">
-                  <img src="./public/asset/images/movies/red-notice.jpg" alt="" class="card-img x">
+                  <img src="./public/asset/images/testProduct.jpg" data-src="./public/asset/images/movies/red-notice.jpg" alt="" class="card-img x">
                   <div class="card-overlay">
                     <div class="bookmark">
                       <ion-icon name="bookmark-outline"></ion-icon>
@@ -26,7 +26,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/spider-men.jpg" alt="" class="card-img">
+              <img src="./public/asset/images/testProduct.jpg" data-src="./public/asset/images/movies/spider-men.jpg" alt="" class="card-img">
 
               <div class="card-overlay">
                 <div class="bookmark">
@@ -56,7 +56,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/matrix.jpg" alt="" class="card-img">
+              <img src="./public/asset/images/testProduct.jpg" data-src="./public/asset/images/movies/matrix.jpg" alt="" class="card-img">
               <div class="card-overlay">
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -85,7 +85,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/eternals.jpg" alt="" class="card-img">
+              <img src="./public/asset/images/testProduct.jpg" data-src="./public/asset/images/movies/eternals.jpg" alt="" class="card-img">
 
               <div class="card-overlay">
 
@@ -119,7 +119,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/dune.jpg" alt="" class="card-img">
+              <img src="./public/asset/images/testProduct.jpg" alt="" data-src="./public/asset/images/movies/dune.jpg" class="card-img">
 
               <div class="card-overlay">
 
@@ -153,7 +153,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/1917.jpg" alt="" class="card-img">
+              <img src="./public/asset/images/testProduct.jpg" data-src="./public/asset/images/movies/1917.jpg" alt="" class="card-img">
 
               <div class="card-overlay">
 
@@ -187,7 +187,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/shang-chi.jpg" alt="" class="card-img">
+              <img src="./public/asset/images/testProduct.jpg" data-src="./public/asset/images/movies/shang-chi.jpg" alt="" class="card-img">
 
               <div class="card-overlay">
 
@@ -221,7 +221,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/casino-royale.jpg" alt="" class="card-img">
+              <img data-src="./public/asset/images/movies/casino-royale.jpg" src="./public/asset/images/testProduct.jpg" alt="" class="card-img">
 
               <div class="card-overlay">
 
@@ -255,7 +255,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/dark-knight.jpg" alt="" class="card-img">
+              <img data-src="./public/asset/images/movies/dark-knight.jpg" alt="" src="./public/asset/images/testProduct.jpg" class="card-img">
 
               <div class="card-overlay">
 
@@ -289,7 +289,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/panther.jpg" alt="" class="card-img">
+              <img data-src="./public/asset/images/movies/panther.jpg" alt="" src="./public/asset/images/testProduct.jpg" class="card-img">
 
               <div class="card-overlay">
 
@@ -323,7 +323,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/venom.jpg" alt="" class="card-img">
+              <img data-src="./public/asset/images/movies/venom.jpg" src="./public/asset/images/testProduct.jpg" alt="" class="card-img">
 
               <div class="card-overlay">
 
@@ -357,7 +357,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/LOTR.jpg" alt="" class="card-img">
+              <img data-src="./public/asset/images/movies/LOTR.jpg" alt="" src="./public/asset/images/testProduct.jpg" class="card-img">
 
               <div class="card-overlay">
 
@@ -391,7 +391,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/saving-private-ryan.jpg" alt="" class="card-img">
+              <img data-src="./public/asset/images/movies/saving-private-ryan.jpg" src="./public/asset/images/testProduct.jpg" alt="" class="card-img">
 
               <div class="card-overlay">
 
@@ -425,7 +425,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/interstaller.jpg" alt="" class="card-img">
+              <img data-src="./public/asset/images/movies/interstaller.jpg" src="./public/asset/images/testProduct.jpg" alt="" class="card-img">
 
               <div class="card-overlay">
 
@@ -459,7 +459,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/endgame.jpg" alt="" class="card-img">
+              <img data-src="./public/asset/images/movies/endgame.jpg" src="./public/asset/images/testProduct.jpg" alt="" class="card-img">
 
               <div class="card-overlay">
 
@@ -493,7 +493,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/ww84.jpg" alt="" class="card-img">
+              <img data-src="./public/asset/images/movies/ww84.jpg" src="./public/asset/images/testProduct.jpg" alt="" class="card-img">
 
               <div class="card-overlay">
 
@@ -527,7 +527,7 @@
           <div class="movie-card">
 
             <div class="movie-card-head">
-              <img src="./public/asset/images/movies/captain-marvel.jpg" alt="" class="card-img">
+              <img data-src="./public/asset/images/movies/captain-marvel.jpg" src="./public/asset/images/testProduct.jpg" alt="" class="card-img">
 
               <div class="card-overlay">
 

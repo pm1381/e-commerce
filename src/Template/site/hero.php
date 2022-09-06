@@ -1,5 +1,5 @@
 <section id="hero" class="container">
-    <img src="./public/asset/images/John-Wick-3.jpg" class="banner-img" alt="">
+    <img data-src="./public/asset/images/John-Wick-3.jpg" src="./public/asset/images/testProduct.jpg" class="banner-img" alt="">
     <div class="heroContent">
         <div class="heroData">
             <div class="data">

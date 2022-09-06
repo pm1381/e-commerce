@@ -4,7 +4,6 @@
 
 <?php require_once 'src/Template/site/hero.php' ?>
 
-
 <?php require_once 'src/Template/site/main.php' ?>
 
 <?php require_once 'src/Template/site/category.php' ?>

@@ -3,34 +3,34 @@
     <div class="showsFlex">
         <div class="eachShow">
             <div class="showHead">
-                <img src="./public/asset/images/planet.jpg" alt="">
+                <img src="./public/asset/images/testProduct.jpg" data-src="./public/asset/images/planet.jpg" alt="">
                 <div class="live-badge">LIVE</div>
                 <div class="total-viewers">210k viewers</div>
             </div>
             <div class="showData">
-                <img src="./public/asset/images/bbcamerica.jpg" class="channelIcon" alt="">
+                <img data-src="./public/asset/images/bbcamerica.jpg" src="./public/asset/images/testProduct.jpg" class="channelIcon" alt="">
                 <h4 class="showName">Planet Earth II Season 1 - Islands</h4>
             </div>
         </div>
         <div class="eachShow">
             <div class="showHead">
-                <img src="./public/asset/images/got.jpg" alt="">
+                <img src="./public/asset/images/testProduct.jpg" data-src="./public/asset/images/got.jpg" alt="">
                 <div class="live-badge">LIVE</div>
                 <div class="total-viewers">1.7M viewers</div>
             </div>
             <div class="showData">
-                <img src="./public/asset/images/HBO-Logo-square.jpg" class="channelIcon" alt="">
+                <img src="./public/asset/images/testProduct.jpg" data-src="./public/asset/images/HBO-Logo-square.jpg" class="channelIcon" alt="">
                 <h4 class="showName">Game of Thrones Season 5 - Mother's Mercy</h4>
             </div>
         </div>
         <div class="eachShow">
             <div class="showHead">
-                <img src="./public/asset/images/vikins.jpg" alt="">
+                <img src="./public/asset/images/testProduct.jpg" data-src="./public/asset/images/vikins.jpg" alt="">
                 <div class="live-badge">LIVE</div>
                 <div class="total-viewers">435k viewers</div>
             </div>
             <div class="showData">
-                <img src="./public/asset/images/HBO-Logo-square.jpg" class="channelIcon" alt="">
+                <img src="./public/asset/images/testProduct.jpg" data-src="./public/asset/images/HBO-Logo-square.jpg" class="channelIcon" alt="">
                 <h4 class="showName">Vikings Season 4 - What Might Have Been</h4>
             </div>
         </div>
