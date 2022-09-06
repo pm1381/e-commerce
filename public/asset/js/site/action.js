@@ -7,4 +7,19 @@ $(document).ready(function () {
             }
         });
     }, 3000);
+
+    $(document).on("click", ".hambergurMenu", event => {
+        $(".hambergurMenu").hide();
+        $(".menuInHamburger").show(350);
+        // $(".menuInHamburger").addClass("active");
+        $(".closeHamburgerMenu").show();
+    })
+
+    $(document).on("click", ".closeHamburgerMenu", event => {
+        $(".closeHamburgerMenu").hide();
+        $(".menuInHamburger").hide(350);
+        // $(".menuInHamburger").removeClass(className);
+        $(".hambergurMenu").show();
+    })
 });
+

@@ -16,17 +16,16 @@
 }
 
 nav{
-    position: fixed;
-    top: -250px;
-    left: 0;
     z-index: 100;
     width: 100%;
-    height: 250px;
+    height: 100px;
+    opacity: .7;
     background: var(--rich-black-fogra-29);
+    display: none;
 }
 
-nav.active{
-    top: 0;
+.active {
+    display: block;
 }
 
 .menuIcons{
@@ -40,6 +39,20 @@ nav.active{
 .menuIcon{
     margin-right: 15px;
     cursor: pointer;
+}
+
+.closeHamburgerMenu ion-icon{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    color: var(--azure);
+}
+
+.hambergurMenu ion-icon{
+    width: 30px;
+    height: 30px;
+    margin-right:7px;
+    color: var(--azure);
 }
 
 .search {
@@ -580,6 +593,19 @@ nav.active{
 }
 
 .hambergurMenu{
+    display: none;
+}
+
+.menuInHamburger{
+    padding: 15px;
+    border-bottom: 1px solid var(--white);
+}
+
+.hambergurMenu .menuIcon{
+    margin-bottom: 7px;
+}
+
+.closeHamburgerMenu {
     display: none;
 }
 

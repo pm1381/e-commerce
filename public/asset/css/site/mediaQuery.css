@@ -24,9 +24,9 @@
         display: none;
     }
 
-    /* .hambergurMenu{
+    .hambergurMenu{
         display: block;
-    } */
+    }
 
     .hambergurMenu ion-icon{
         width: 35px;
@@ -149,6 +149,13 @@
         flex: 0 1 10%;
     }
 
+    .closeHamburgerMenu ion-icon, .hambergurMenu ion-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+
+
     #hero{
         margin-bottom: 30px;
     }
@@ -183,5 +190,11 @@
 
     .heroData .data span{
         font-size: 12px;
+    }
+}
+
+@media(max-width:326px){
+    .signIn-text{
+        font-size: 13px;
     }
 }
